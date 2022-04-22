@@ -1,0 +1,33 @@
+ /* unvisited link */
+a:link {
+  color: #2369bd;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: #2369bd;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+.remark-slide-content:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    height: 70px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("img/logo_spatial.png");
+}
